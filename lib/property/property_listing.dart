@@ -151,7 +151,7 @@ class _PropertyListingState extends State<PropertyListing> {
     );
   }
 
-  Widget _buildImagewidget(PropertySellModel sellModel) {
+  Widget _buildImagewidget(PropertySellModel  sellModel) {
     return Hero(
       tag: sellModel.id,
       child: Container(
